@@ -1,0 +1,174 @@
+ *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+    }
+
+body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+main {
+    width: 90%;
+    
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+
+}
+.header_links {
+    display: flex;
+    gap: 1rem;
+
+}
+.subtitle p {
+    color: gray;
+}
+.header_links p {
+    color: gray;
+}
+.header_links a {
+    color: red;
+}
+.centerbutton ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+   
+}
+.centerbutton ul a {
+    color: gray;
+}
+.main_links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+}
+
+.leftbutton {
+    border: 2px solid rgb(248, 233, 232);
+    padding-right: 35px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    padding-top: 8px;
+}
+.leftbutton a {
+    color: black;
+    font-weight: 600;
+    padding-left: 10px;
+
+}
+.rightbutton {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(188, 186, 186);
+}
+.rightbutton a {
+    color: black;
+}
+#webbutton {
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    font-weight: 600;
+}
+
+
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+
+.tumb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 22%;
+    gap: 0.5rem;
+}
+.image {
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image img {
+    width: 100%;
+}
+.tumb_info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+.user {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+}
+.userid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+.userid img {
+    border-radius: 50%;
+    width: 30px;
+}
+.badge p {
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+.statistic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.like ion-icon {
+    font-size: 1rem;
+
+}
+.views {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
